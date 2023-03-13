@@ -103,7 +103,7 @@ class LoginController {
     
             // Render a la vista
             $router->render('auth/crear', [
-                'titulo' => 'Crea tu cuenta en ToDo->Work', 
+                'titulo' => 'Crea tu cuenta', 
                 'usuario' => $usuario, 
                 'alertas' => $alertas
             ]);
